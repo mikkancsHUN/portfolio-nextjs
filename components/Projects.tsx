@@ -35,7 +35,7 @@ export default function Projects() {
   return (
     <section ref={sectionRef} id="projects" className="max-w-6xl mx-auto px-6 py-24 border-t border-neutral-900">
       <div className="mb-20">
-        <p className="text-xs font-mono text-orange-500 uppercase tracking-widest mb-2">// Portfólió</p>
+        <p className="text-xs font-mono text-orange-500 uppercase tracking-widest mb-2">{"// "} Portfólió</p>
         <h2 className="text-3xl font-bold tracking-tight">Kiemelt Projektek</h2>
       </div>
 

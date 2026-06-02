@@ -43,6 +43,12 @@
   visibility: visible;
 }
 
+html {
+  scroll-behavior: smooth;
+  /* Hogy a fixált Navbar ne takarja ki a szekciók tetejét kattintás után: */
+  scroll-padding-top: 80px;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

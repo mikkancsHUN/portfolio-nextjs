@@ -23,7 +23,7 @@ export default function Contact() {
         
         {/* Fejléc rész */}
         <p className="text-xs font-mono text-orange-500 uppercase tracking-widest mb-3">
-          // Kapcsolat
+          {"// "} Kapcsolat
         </p>
         <h2 className="text-4xl font-bold tracking-tight mb-6">
           Indítsunk el valami újat!

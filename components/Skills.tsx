@@ -7,8 +7,8 @@ export default function Skills() {
       
       {/* Szekció Cím */}
       <div className="mb-16">
-        <p className="text-xs font-mono text-orange-500 uppercase tracking-widest mb-2">// ESZKÖZTÁR</p>
-        <h2 className="text-3xl font-bold tracking-tight">Technologies, Tools and Frameworks I've Used</h2>
+        <p className="text-xs font-mono text-orange-500 uppercase tracking-widest mb-2">{"// "} ESZKÖZTÁR</p>
+        <h2 className="text-3xl font-bold tracking-tight">Technologies, Tools and Frameworks I have used</h2>
       </div>
 
       {/* A RÉSZ: A 3 FŐ KATEGÓRIA KÁRTYA */}

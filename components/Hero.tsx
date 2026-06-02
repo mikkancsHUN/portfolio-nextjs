@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className="h-[calc(100vh-80px)] relative flex items-center overflow-hidden px-6">
+    <section id="hero" className="h-screen relative flex items-center overflow-hidden px-6">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_center,rgba(255,69,0,0.06)_0%,rgba(11,11,12,0)_60%)] pointer-events-none" />
       <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[400px] h-[400px] bg-blue-500/5 rounded-full blur-[100px] pointer-events-none" />
 
