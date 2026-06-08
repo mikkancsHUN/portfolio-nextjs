@@ -13,14 +13,15 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* Alapértelmezett mobilhoz */
+  scroll-padding-top: 80px;
 }
 
-@media (min-width: 768px) {
+/* Asztali mérethez */
+/* @media (min-width: 768px) {
   html {
-    scroll-padding-top: 104px; /* Asztali mérethez */
+    scroll-padding-top: 104px; 
   }
-}
+} */
 
 body {
   font-family: var(--font-syne);
