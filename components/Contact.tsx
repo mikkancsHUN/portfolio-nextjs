@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
+import { log } from "console";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -11,14 +13,32 @@ export default function Contact() {
   });
   const [status, setStatus] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("Sending...");
 
-    setTimeout(() => {
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID!,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        process.env.NEXT_PUBLIC_PUBLIC_KEY!,
+      );
+
       setStatus("Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
-    }, 1500);
+    } catch (error) {
+      setStatus("Failed to send, try again.");
+      if (error instanceof Error) {
+        console.error("EmailJS Error Message:", error.message);
+      } else {
+        console.error("EmailJS Error Object:", error);
+      }
+    }
   };
 
   return (
@@ -88,11 +108,21 @@ export default function Contact() {
                 {field === "message" ? (
                   <textarea
                     rows={4}
+                    name="message"
+                    value={formData.message}
+                    onChange={(e) =>
+                      setFormData({ ...formData, message: e.target.value })
+                    }
                     className="w-full bg-white/5 border border-white/10 px-4 py-3 text-sm text-white focus:outline-none focus:border-[#d326d3] transition-all resize-none"
                   />
                 ) : (
                   <input
                     type={field === "email" ? "email" : "text"}
+                    name={field}
+                    value={field === "name" ? formData.name : formData.email}
+                    onChange={(e) =>
+                      setFormData({ ...formData, [field]: e.target.value })
+                    }
                     className="w-full bg-white/5 border border-white/10 px-4 py-3 text-sm text-white focus:outline-none focus:border-[#d326d3] transition-all"
                   />
                 )}
