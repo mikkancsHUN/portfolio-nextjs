@@ -87,8 +87,8 @@ export default function Contact() {
               <span className="text-[#d326d3]">great</span>.
             </h3>
             <p className="text-neutral-400 font-extralight leading-relaxed text-sm md:text-base">
-              Nyitott vagyok frontend és full-stack lehetőségekre, izgalmas
-              projektekre vagy akár csak egy kötetlen szakmai beszélgetésre.
+              I am open to new frontend and full-stack opportunities, exciting
+              projects, or simply a casual professional conversation.
             </p>
           </motion.div>
 

@@ -65,8 +65,8 @@ export default function Projects() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-neutral-400 font-extralight tracking-wide mt-6 max-w-md mx-auto text-sm md:text-base"
           >
-            Válogatott munkáim, ahol a frontend logikát ötvöztem a látványos
-            felhasználói élménnyel.
+            Showcasing my versatility: from robust SaaS architectures to
+            premium, design-driven web experiences.
           </motion.p>
         </div>
 

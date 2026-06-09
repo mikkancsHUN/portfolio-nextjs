@@ -43,7 +43,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-sm tracking-[0.3em] uppercase text-[#d326d3] font-light"
         >
-          Frontend Developer
+          Frontend & Full-stack Developer
         </motion.span>
 
         <motion.h1
@@ -57,11 +57,12 @@ export default function Hero() {
 
         <motion.p
           variants={itemVariants}
-          className="mt-6 mb-10 text-neutral-400 font-light leading-relaxed text-sm sm:text-base max-w-[450px]"
+          className="mt-6 mb-10 text-neutral-100/50 font-light leading-relaxed text-sm sm:text-base max-w-[450px]"
         >
-          Modern, prémium felhasználói felületeket építek React, TypeScript és
-          Tailwind technológiákkal. Célom a tiszta kód, a tökéletes animációk és
-          olyan digitális termékek létrehozása.
+          I build modern, premium digital products. Specializing in React, Vue,
+          and Next.js , with a versatile background spanning web and mobile
+          development. Focused on clean code, smooth animations, and
+          high-performance user experiences.
         </motion.p>
 
         <motion.div
@@ -78,6 +79,12 @@ export default function Hero() {
             <div className="text-2xl font-bold text-white">15+</div>
             <div className="text-[9px] uppercase tracking-widest text-neutral-500">
               Projects
+            </div>
+          </div>
+          <div>
+            <div className="text-2xl font-bold text-white">10+</div>
+            <div className="text-[9px] uppercase tracking-widest text-neutral-500">
+              Technologies
             </div>
           </div>
         </motion.div>

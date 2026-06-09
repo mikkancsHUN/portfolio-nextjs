@@ -143,8 +143,8 @@ export default function Skills() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-neutral-400 font-extralight tracking-wide mt-6 max-w-md mx-auto text-sm md:text-base"
           >
-            A tech stack és eszközök, amikkel a modern, vizuális webes
-            élményeket életre keltem.
+            The tech stack and tools I use to bring modern, visual web
+            experiences to life.
           </motion.p>
         </div>
 

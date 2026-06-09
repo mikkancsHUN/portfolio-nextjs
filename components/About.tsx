@@ -44,17 +44,16 @@ export default function About() {
           className="w-full md:w-2/3 space-y-8"
         >
           <p className="text-white/80 font-light text-xl md:text-2xl leading-relaxed">
-            Frontend fejlesztő vagyok, aki a technikai precizitást a prémium
-            dizájnnal ötvözi. Nemcsak felületeket építek, hanem digitális
-            élményeket, ahol minden pixelnek funkciója és karaktere van.
+            I am a frontend developer who blends technical precision with
+            premium design. I don't just build interfaces; I craft digital
+            experiences where every pixel has both a function and a purpose.
           </p>
 
           <p className="text-neutral-400 font-light text-lg leading-relaxed">
-            Fő fókuszom a modern webtechnológiák (React, TypeScript, Next.js)
-            alkalmazása, legyen szó SaaS termékek fejlesztéséről vagy komplex
-            webes alkalmazásokról. Célom, hogy olyan megoldásokat szállítsak,
-            amelyek nemcsak gyorsak és skálázhatók, de vizuálisan is
-            kiemelkednek a piaci zajból.
+            My focus lies in modern web technologies (React, Next.js, and Vue),
+            whether developing SaaS products or complex web applications. My
+            goal is to deliver solutions that are not only fast and scalable but
+            also stand out visually in a crowded market.
           </p>
 
           <div className="w-full h-[1px] bg-white/10 mt-12" />
