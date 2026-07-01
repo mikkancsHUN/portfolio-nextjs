@@ -45,7 +45,7 @@ export default function About() {
         >
           <p className="text-white/80 font-light text-xl md:text-2xl leading-relaxed">
             I am a frontend developer who blends technical precision with
-            premium design. I don't just build interfaces; I craft digital
+            premium design. I don&apos;t just build interfaces; I craft digital
             experiences where every pixel has both a function and a purpose.
           </p>
 
@@ -60,13 +60,6 @@ export default function About() {
 
           <div className="flex gap-8">
             <a
-              href="/cv.pdf"
-              target="_blank"
-              className="text-xs uppercase tracking-[0.2em] text-[#d326d3] hover:text-white transition-all"
-            >
-              Resume
-            </a>
-            <a
               href="https://github.com/mikkancsHUN"
               target="_blank"
               className="text-xs uppercase tracking-[0.2em] text-white/50 hover:text-white transition-all"
@@ -74,7 +67,7 @@ export default function About() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/..."
+              href="https://www.linkedin.com/in/mikl%C3%B3s-kisfaludy-032b03275/?locale=en-US"
               target="_blank"
               className="text-xs uppercase tracking-[0.2em] text-white/50 hover:text-white transition-all"
             >

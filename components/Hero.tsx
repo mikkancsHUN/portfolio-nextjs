@@ -102,8 +102,10 @@ export default function Hero() {
           </a>
 
           <a
-            href="/cv.pdf"
+            href="/Miklos_Kisfaludy_Frontend_Developer.pdf"
             target="_blank"
+            rel="noopener noreferrer"
+            download="Miklos_Kisfaludy_Frontend_Developer.pdf"
             className="text-white/60 px-8 py-4 text-xs tracking-[0.2em] uppercase border border-white/10 transition-all hover:border-white/30 hover:text-white"
           >
             Download CV

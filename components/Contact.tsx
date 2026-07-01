@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { log } from "console";
 
 export default function Contact() {
   const [formData, setFormData] = useState({

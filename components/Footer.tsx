@@ -42,7 +42,7 @@ export default function Footer() {
 
         <motion.div variants={itemVariants} className="flex items-center gap-8">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:kismiki2000@gmail.com"
             className="text-[11px] font-light text-white/50 hover:text-[#d326d3] transition-colors duration-300 tracking-[0.1em] uppercase"
           >
             Email
